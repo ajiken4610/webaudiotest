@@ -1,5 +1,5 @@
 <template lang="pug">
-div
+.container.my-4
   NuxtPage
 </template>
 
@@ -12,4 +12,12 @@ function initAudioContext() {
   // wake up AudioContext
   useAudioContext().value.resume();
 }
+</script>
+
+<style lang="scss">
+@import "bootstrap";
+</style>
+
+<script setup lang="ts">
+import "bootstrap";
 </script>

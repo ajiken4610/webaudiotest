@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "@prettier/plugin-pug": "^2.2.0",
+    "bootstrap": "^5.2.0",
     "nuxt": "3.0.0-rc.6",
     "prettier": "^2.7.1",
     "pug": "^3.0.2",
